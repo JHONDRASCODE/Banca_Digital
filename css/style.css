@@ -1,32 +1,36 @@
 :root{
-    --primary:#6209bd;
+    --primary: #6209db;
     --dark: #000000;
     --light: #ffffff;
     --grey: #f5f5f5;
 }
 .btn-primary{
+    background-color: var(--primary);
+    border-color: var(--light)
+}
+.btn-primary:hover{
     background-color: var(--light);
     border-color: var(--primary);
     color: var(--primary);
 }
-
-.btn-primary-me-2:hover{
-    background-color: var(--primary);
-    border-color: var(--primary);
-    color: var(--light);
-}
-
-.btn-success{
-    color: #ffffff;
-    background-color:  var(--primary);
-}
-
-.btn-success:hover {
-    color: #6209bd;
-    background-color:  var(--light);
-}
-
-.text_punto{
+.btn-light{
+    background-color: var(--light);
     color: var(--primary);
-    
+}
+.mm{
+    color: var(--primary);
+}
+#pmm{
+    background-color: var(--grey);
+}   
+.badge{
+    background-color: var(--primary);
+} 
+.clc{
+    color: var(--primary);
+
+}
+
+#xxx{
+    background-color: var(--grey);
 }
